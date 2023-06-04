@@ -27,7 +27,7 @@ Proces, który otrzymał sygnał może zareagować na trzy sposoby:
 	- przychwycenie sygnału oznacza wykonanie przez proces specjalnej procedury obsługi – po jej wykonaniu proces może powrócić do swego zasadniczego działania (o ile jest to właściwe w danej sytuacji). Podobnie jak ignorować, przechwytywać można wszystkie sygnały z wyjątkiem: SIGSTOP i SIGKILL.
 Proces potomny dziedziczy po swoim przodku mechanizmy reagowania na wybrane sygnały. Jeżeli jednak potomek uruchomi nowy program przy pomocy funkcji exec, to przywrócone zostają domyślne procedury obsługi sygnałów.
 
-![[Screenshot 2023-06-04 at 00.23.42.png]]
+![signals](./screenshot-2023-06-04.png)
 
 ## Wysyłanie sygnałów
 
